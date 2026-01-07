@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: action/checkout@v2
+        uses: actions/checkout@v6.0.1
 
       - name: Run Super-Linter
         uses: vivek-5/Test_Jenkins@v1
